@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  padding: 3rem 10px;
+}
+
+main {
+  background-color: #eeee;
+  text-align: center;
+  padding: 5rem 1rem;
+  border-radius: 10px;
+}
+
+.title {
+  line-height: 4rem;
+}
+
+.title > h1 {
+  font-size: 50px;
+}
+
+header {
+  background-color: white;
+  padding: 15px 0;
+  width: 100%;
+}
+
+header > img {
+  width: 80%;
+}
+
+.timeline {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  padding: 3rem 2rem 3rem;
+}
+
+.timeline > ul {
+  display: grid;
+  gap: 1.9rem;
+  text-align: start;
+  margin-top: 3rem;
+  max-width: 600px;
+}
+
+.timeline > blockquote {
+  text-align: start;
+  font-style: italic;
+  justify-self: start;
+  margin: 2rem 0;
+  max-width: 600px;
+  justify-self: center;
+}
+
+.timeline > blockquote > p {
+  margin-bottom: 1rem;
+}
+
+section > a {
+  margin-top: 10rem;
+}
